@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url('./img/fon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-bottom: 100px;
+    position: fixed;
+    /* box-shadow: 0px 1px 15px 10px #000; */
+    border-bottom: 2px solid white;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.page {
+    color: black;
+    font-size: 40px;
+    -webkit-text-stroke: 0.8px white;
+}
+
+.l-header ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.l-header ul span a {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px
+}
+
+.l-header ul a {
+    color: white;
+    font-size: 21px;
+}
+
+.l-header a:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+.w-100 img {
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container a {
+    color: orange;
+    font-size: 15px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 225px;
+}
+
+.blocks a:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+.blocks a:focus {
+    color: green;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    height: 315px;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+    text-align: center;
+    box-shadow: 1px 5px 10px 15px #000;
+}
+
+.bgc-brown {
+    background-color: black;
+}
+
+.copyright {
+    color: white;
+    padding-top: 245px;
+}
+
+.padd-top {
+    padding-top: 16px ;
+}
